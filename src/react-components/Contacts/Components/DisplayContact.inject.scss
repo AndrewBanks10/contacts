@@ -1,0 +1,19 @@
+.icon {
+  float: left;
+  padding-right: 16px;
+}
+
+.text {
+  padding-top: 4px;
+  float: left;
+  width: calc(100% - 40px);
+  overflow-wrap: break-word;
+}
+
+.floatClear {
+  clear: both
+}
+
+.field {
+  min-height: 50px;
+}

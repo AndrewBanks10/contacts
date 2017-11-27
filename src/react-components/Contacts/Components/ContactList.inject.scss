@@ -1,0 +1,73 @@
+.floatClear {
+  clear: both
+}
+
+.contactsContent {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 12px;
+  // appBar height + 2 * this padding
+  height: calc(100% - (62px + 20px));
+  overflow-y: auto;
+}
+
+.contactRow {
+  height: 41px;
+  cursor: default;
+}
+
+.contactRow:hover {
+  background-color: RGB(245, 245, 245)
+}
+
+.baseRowElement {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  float: left; 
+  margin-top: 13px; 
+}
+
+.contactName {
+  @extend .baseRowElement;
+  padding-right: 1%;
+  width: 44%;
+}
+
+.contactContext {
+  @extend .baseRowElement;
+  padding-right: 1%;
+  width: 34%;
+}
+
+.phoneNumber {
+  @extend .baseRowElement;
+  padding-right: 1%;
+  width: 19%;
+}
+
+@media screen and (max-width: 680px) {
+  .contactName {
+    width: 59%;
+  }
+  .contactContext {
+    width: 40%;
+    padding: 0%;
+  }
+  .phoneNumber {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .contactName {
+    width: 100%;
+    padding: 0%;
+  }
+  .contactContext {
+    display: none;
+  }
+  .phoneNumber {
+    display: none;
+  }
+}

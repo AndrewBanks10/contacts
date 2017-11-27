@@ -1,0 +1,37 @@
+.appBarSearchBox {
+  width: 100%;
+  margin-right: 22px;
+  height: 48px;
+  background-color: white;
+  float: left;
+  border-radius: 8px;
+  opacity: 1.0; 
+}
+
+.appBarSearchIcon {
+  padding-top: 12px;
+  padding-right:16px;
+  padding-left: 16px;
+  float: left;
+}
+
+.appBarSearchInputContainer {
+  width: calc(100% - 150px);
+  float: left;
+  padding-top:9px;
+}
+
+.appBarSearchInput {
+  width: 100%;
+  border-width: 0px;
+  height:30px;
+  font-size: 18px;
+  outline: none;
+}
+
+.appBarClearSearch {
+  padding-top: 12px;
+  padding-right:16px;
+  padding-left: 16px;
+  float: right;  
+}
